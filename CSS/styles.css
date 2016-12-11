@@ -1,5 +1,8 @@
 .page-header{
     font-size: 75%;
     text-align: center;
+}
+
+.main-content{
     border: solid 1px #000000;
 }
