@@ -3,6 +3,8 @@
     text-align: center;
 }
 
-.main-content{
+.chicken .beef .sushi{
     border: solid 1px #000000;
+    background-color: grey;
+    padding: 5px 2px 4px 2px;
 }
