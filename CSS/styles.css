@@ -10,7 +10,7 @@
     padding: 5px 2px 4px 2px;
 }
 
-head-chicken, head-beef, head-sushi {
+.head-chicken, .head-beef, .head-sushi {
     text-align: right;
     font-family: Arial;
     border: solid 2px #000000;
