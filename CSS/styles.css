@@ -8,12 +8,11 @@
     border: solid 2px #000000;
     background-color: grey;
     padding: 5px 2px 4px 2px;
-    padding: 2px;
 }
 h3{
     text-align: right;
     font-family: Arial;
     border: solid 2px #000000;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
 }
 
