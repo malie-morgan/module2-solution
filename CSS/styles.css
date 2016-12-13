@@ -1,9 +1,10 @@
 .page-header{
     font-size: 150%;
     text-align: center;
+    font-family: Arial;
 }
 
-.chicken .beef .sushi{
+.chicken, .beef, .sushi{
     border: solid 1px #000000;
     background-color: grey;
     padding: 5px 2px 4px 2px;
