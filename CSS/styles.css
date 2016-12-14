@@ -6,6 +6,7 @@
 .main-content {
     width: 100%;
     display:table;
+    table-layout: fixed;
 }
 .chicken, .beef, .sushi{
     border: solid 2px #000000;
@@ -43,4 +44,26 @@ p{
 
 .cell{
     display: table-cell;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .cell {
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .cell-chicken, .cell-beef {
+        width: 50%;
+        display: inline-block;
+    }
+    .cell-sushi {
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }
 }
