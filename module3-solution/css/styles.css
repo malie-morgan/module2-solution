@@ -3,3 +3,13 @@
     border-radius: 0;
     border: 0;
 }
+.navbar-default .navbar-brand {
+    margin: 15px;
+    color: white;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: cursive;
+}
